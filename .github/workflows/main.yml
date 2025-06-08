@@ -7,7 +7,7 @@ on:
 
 jobs:
   amazon-linux-job:
-    runs-on: self-hosted # Host runner (not Amazon Linux)
+    runs-on: ubuntu-latest  # Host runner (not Amazon Linux)
     container:
       image: amazonlinux:2023  # Use Amazon Linux 2023 container
     steps:
